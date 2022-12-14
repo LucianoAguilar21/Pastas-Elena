@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
+/*font-family: 'Lobster', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+/*font-family: 'Hind', sans-serif;*/
+
+
+/* Reset*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* estilos principales*/
+
+html, body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Hind', sans-serif;
+}
+
+
+p{
+    font-size: 1rem;
+    margin: 10px;
+    line-height: 1.7em;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* clases */
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.display-1{
+    font-size: 72px;
+    font-weight: 300;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+}
+
+.display-2{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-dark{
+    background-color: #000;
+    border:1px solid black;
+    color: white;
+}
+
+.btn-ligth{
+    border:1px solid black;
+    color: black;
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+form .form-group{
+    margin-bottom: 16px ;
+
+}
+
+form .form-control{
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background: #f9f9f9;
+    border:1px solid #f9f9f9;
+    border-radius: 4px;
+}
+
+
+/* navbar */
+
+#navbar{
+    height: 70px;
+    background-color: rgba(253, 253, 253, 0.632);
+    position: absolute;
+    width: 100%;
+
+}
+
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .logo{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* showcase*/
+
+#showcase{
+    background: url('../img/background-showcase.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+#showcase .container{
+    width: 500px;
+
+    padding-top: 200px;
+}
+#showcase .container p{
+    font-size: 24px;
+    text-align: justify;
+    text-shadow: 2px 2px black;
+}
+
+#showcase .container a{
+    text-align: center;
+    background-color: #f9f9f986;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.604);
+}
+
+/* menú */
+
+#menu {
+    padding: 90px 0;
+
+
+}
+#menu h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.list-comidas li{
+list-style: none;
+text-align: center;
+padding: 15px;
+}
+
+
+/* about */
+
+#about{
+    padding: 90px 0;
+    background-color: #f9f9f9;
+
+}
+
+#about h2{
+    text-align: center;
+    padding-bottom:50px ;
+}
+
+#about p{
+    padding-bottom: 20px;
+}
+
+.about-left{
+    float: left;
+    width: 50%;
+    padding-right: 90px;
+}
+
+
+.about-right{
+    float: right;
+    width: 50%;
+    padding-left: 90px;
+}
+
+#contacto{
+    padding: 90px 0;
+}
+
+#contacto h2 {
+    text-align: center;
+    padding-bottom:50px ;
+}
+
+#contacto form{
+    padding-top: 50px ;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contacto button{
+    width: 100%;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    padding: 30px;
+}
+
+#footer a{
+    padding: 30px;
+}
